@@ -1,0 +1,152 @@
+/*  Start Global Rules. */
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 80px;
+  /*16px = 100% = 1em*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  width: 4%;
+  border-style: none;
+  border-top: dotted;
+  border-width: 6px;
+  border-color: #b6dada;
+  margin: 100px auto;
+}
+
+/*  End Global Rules. */
+/*  Start Top Container. */
+.top-container {
+  background-color: #EAF9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-img {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.buttom-img {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/*  End Top Container. */
+/*  Start Middle Container. */
+.middle-container {
+  margin: 50px auto;
+}
+
+.profile {
+  width: 31%;
+  margin: 50px auto;
+}
+
+.intro {
+  color: #40514E;
+  line-height: 2;
+  text-align: center;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.computer-png {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-png {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pragraph {
+  width: 573px;
+  margin: 40px auto 60px;
+}
+
+.btn {
+
+    background-color: #66BFBF;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid #1c3535;
+    display: inline-block;
+    cursor: pointer;
+    color: #40524f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #92d4e8;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/*  End middle Container. */
+/*  Start bottom Container. */
+.bottom-container {
+  background: #66BFBF;
+  padding: 50px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: auto 30px;
+  color: #11999E;
+  font-weight: bold;
+}
+
+.Pr {
+  font-family: 'Satisfy', cursive;
+  font-weight:bold;
+  font-size: 16px;
+  color: #555;
+
+}
+
+/*  End bottom Container. */
